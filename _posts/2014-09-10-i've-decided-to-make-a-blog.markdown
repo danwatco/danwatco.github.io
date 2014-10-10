@@ -4,7 +4,7 @@ title:  "I've Decided to start a blog!"
 date:   2014-09-10 21:12:25
 categories: jekyll
 tags: featured
-image: /assets/article_images/2014-09-10-i've-decided-to-make-a-blog/desktop.jpg
+image: /assets/article_images/2014-09-10-i\'ve-decided-to-make-a-blog/desktop.jpg
 ---
 I've made a new blog! Yay!
 
