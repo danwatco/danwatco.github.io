@@ -7,7 +7,7 @@
     {% include header.html %}
     <main class="content" role="main">
       <article class="post">
-        <!--{#% if page.image %}-->
+        {% if page.image %}
         <div class="article-image">
           <div class="post-image-image" style="background-image: url({{ page.image }})">
             Article Image
@@ -29,7 +29,7 @@
         <script>
           (function ($) {
               "use strict";
-              $(document).ready(function(){
+              /*$(document).ready(function(){
                   var $window = $(window),
                       $image = $('.post-image-image');
                   $window.on('scroll', function() {
@@ -40,7 +40,7 @@
                           .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
                           .css('opacity', 1-Math.max(top/700, 0));
                   });
-                  $window.trigger('scroll');
+                  $window.trigger('scroll'); */
 
                   var height = $('.article-image').height();
                       $('.post-content').css('padding-top', height + 'px');
