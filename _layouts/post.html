@@ -9,10 +9,9 @@
       <article class="post">
         {% if page.image %}
         <div class="article-image">
-          <!--<div class="post-image-image" style="background-image: url('http://danwatco.github.io{{ page.image }}')">
+          <div class="post-image-image" style='background-image: url("http://danwatco.github.io{{ page.image }}")'>
             Article Image
-          </div>-->
-          <img class="post-image-image" src="http://danwatco.github.io{{ page.image }}" alt="Article img" />
+          </div>
           <div class="post-meta">
             <h1 class="post-title">{{ page.title }}</h1>
             <div class="cf post-meta-text">
@@ -29,7 +28,7 @@
         </div>
         <script>
           (function ($) {
-              "use strict";
+              /*"use strict";
               $(document).ready(function(){
                   var $window = $(window),
                       $image = $('.post-image-image');
@@ -63,7 +62,7 @@
 
               });
 
-          }(jQuery));
+          }(jQuery)); */
         </script>
         {% else %}
         <div class="noarticleimage">
