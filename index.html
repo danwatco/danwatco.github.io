@@ -38,8 +38,11 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
-                    <h2>I'm a 2nd Year Computer Science and Electronics undergraduate at The University of Bristol</h2>
-                    <p class="lead mb-5"><span>Here's some info about me!</span><span>!</span></p><a class="btn btn-dark btn-xl js-scroll-trigger" role="button" href="#services">My Current Work Areas</a></div>
+                    <h2>Hey! I'm a 3rd Year undergraduate studying Computer Science and Electronics at the University of Bristol.&nbsp;</h2>
+                    <p class="lead mb-5"><span>Currently working as a Digital Media Intern at <a href="https://consalia.com">Consalia</a> I also have a part-time position at the university offering remote IT support for students. I'm from Reading and along with my studies I'm heavily into mixing and producing music and also play touch rugby.</span><span>!</span></p>
+                    <a
+                        class="btn btn-dark btn-xl js-scroll-trigger" role="button" href="#services">My Current Work Areas</a>
+                </div>
             </div>
         </div>
     </section>
@@ -63,7 +66,7 @@
                     <p class="mb-0 text-faded"><span>Skills in processor architecture and key system components</span></p>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-mustache"></i></span>
-                    <h4><strong>Personal Systems Administration</strong></h4>
+                    <h4><strong>Systems Administration</strong></h4>
                     <p class="mb-0 text-faded">I work as a laptop technician at the University Laptop Clinic.</p>
                 </div>
             </div>
@@ -73,15 +76,15 @@
         <div class="container">
             <div class="content-section-heading text-center">
                 <h3 class="text-secondary mb-0">Portfolio</h3>
-                <h2 class="mb-5">Recent Projects</h2>
+                <h2 class="mb-5">Recent Projects &amp; Positions</h2>
             </div>
             <div class="row no-gutters">
                 <div class="col-lg-6">
                     <a class="portfolio-item" href="#">
                         <div class="caption">
                             <div class="caption-content">
-                                <h2>Stationary</h2>
-                                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                                <h2>Consalia</h2>
+                                <p class="mb-0">Digital Marketing Intern</p>
                             </div>
                         </div><img class="img-fluid" src="assets/img/portfolio-1.jpg"></a>
                 </div>
@@ -89,38 +92,41 @@
                     <a class="portfolio-item" href="#">
                         <div class="caption">
                             <div class="caption-content">
-                                <h2>Ice Cream</h2>
-                                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                <h2>University of Bristol</h2>
+                                <p class="mb-0">Student Laptop Technician</p>
                             </div>
                         </div><img class="img-fluid" src="assets/img/portfolio-2.jpg"></a>
-                </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h2>Strawberries</h2>
-                                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio-3.jpg"></a>
-                </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h2>Workspace</h2>
-                                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio-4.jpg"></a>
                 </div>
             </div>
         </div>
     </section>
     <footer class="footer text-center">
         <div class="container">
+            <div class="modal fade" role="dialog" tabindex="-1" id="modal">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Contact Me</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                        <div class="modal-body">
+                            <div class="alert alert-success d-none" role="alert" id="success-alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><span><strong>Success!</strong>&nbsp;The form has been submitted please wait for a response.</span></div>
+                            <form
+                                id="contact-form" method="post" action="https://send.pageclip.co/OqN8s2kwOXhTAr2wfxsgP9bQvVDhSq6y/contact-form"><input class="form-control d-none" type="text" name="trapit">
+                                <div class="form-group"><label class="text-center d-lg-flex justify-content-lg-start" for="name" style="margin-top: 0;margin-left: 0;">Name</label><input class="form-control" type="text" name="name" required=""></div>
+                                <div class="form-group"><label class="d-lg-flex justify-content-lg-start" for="email">Email</label><input class="form-control" type="email" name="email" required="" inputmode="email" autocomplete="off"></div>
+                                <div class="form-group"><label class="d-lg-flex justify-content-lg-start" for="message">Message</label><input class="form-control" type="text" name="message" required="" style="height: 105px;"></div>
+                                </form>
+                                <p></p>
+                        </div>
+                        <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="submit" form="contact-form">Submit</button></div>
+                    </div>
+                </div>
+            </div>
             <ul class="list-inline mb-5">
+                <li class="list-inline-item" id="contact" data-toggle="modal" data-target="#modal">&nbsp;<a class="text-white social-link rounded-circle"><i class="icon-envelope"></i></a></li>
                 <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="https://www.linkedin.com/in/danwatkinson/"><i class="icon-social-linkedin"></i></a></li>
                 <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="https://twitter.com/danwatco"><i class="icon-social-twitter"></i></a></li>
                 <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="https://github.com/danwatco"><i class="icon-social-github"></i></a></li>
+                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="https://soundcloud.com/djdouble-u"><i class="icon-social-soundcloud"></i></a></li>
             </ul>
             <p class="text-muted mb-0 small">Copyright &nbsp;© Dan Watkinson 2020</p>
         </div><a class="js-scroll-trigger scroll-to-top rounded" href="#page-top"><i class="fa fa-angle-up"></i></a></footer>
